@@ -1,0 +1,27 @@
+name: README
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate README public surface
+        run: |
+          set -euo pipefail
+          test -f README.md
+          grep -q "Public workbench" README.md
+          grep -q "Repository policy" README.md
+          grep -q "timetable-gen" README.md
+          grep -q "github-snake.svg" README.md
