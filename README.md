@@ -31,7 +31,7 @@
 </div>
 
 <details>
-<summary>&nbsp;<b>> with tech stack — mere system par toh chal raha tha 🥲</b>&nbsp;—&nbsp;</summary>
+<summary>&nbsp;<b>> with tech stack — mere system par toh chal raha tha 🥲</b>&nbsp;?&nbsp;</summary>
 <br/>
 
 <p>
