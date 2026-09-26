@@ -22,7 +22,7 @@ jobs:
           set -euo pipefail
           test -f README.md
           test -f README.md
-          grep -q "Log-monitoring-Dashboard" README.md
+          grep -q "Log-Monitoring-Dashboard" README.md
           grep -q "Aura-store" README.md
           grep -q "Portfolio-2" README.md
           grep -q "github-snake.svg" README.md
