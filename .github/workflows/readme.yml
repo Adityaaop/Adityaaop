@@ -1,0 +1,38 @@
+name: README
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate README public surface
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -f README.md
+          grep -q "Log-monitoring-Dashboard" README.md
+          grep -q "Aura-store" README.md
+          grep -q "Portfolio-2" README.md
+          grep -q "github-snake.svg" README.md
+
+      - name: Validate Pages surface
+        run: |
+          set -euo pipefail
+          test -f docs/index.html
+          test -f docs/assets/favicon.svg
+          test -f docs/assets/social-preview.svg
+          grep -q "Public workbench" docs/index.html
+          grep -q "og:image" docs/index.html
+          grep -q "twitter:image" docs/index.html

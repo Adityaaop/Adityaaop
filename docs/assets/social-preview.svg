@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Adityaaop GitHub profile preview">
+  <rect width="1200" height="630" fill="#f7f2ee"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#ffffff" stroke="#e7d9d3"/>
+  <rect x="112" y="112" width="82" height="82" rx="20" fill="#111827"/>
+  <g transform="translate(123, 134.875) scale(1.25)" fill="#ffffff">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 29 L14 1 L22 1 L30 19 L30 1 L42 1 C46.5 1 48 4 48 9 C48 13.5 45 16 41 17 L48 29 L41 29 L35.5 17.5 L30 17.5 L30 29 L24 29 L22 23 L11.5 23 L9 29 Z M17 6 L13 18 L20.5 18 Z M30 6 L30 12.5 L39.5 12.5 C41.5 12.5 42.5 11 42.5 9.2 C42.5 7.5 41.5 6 39.5 6 Z"></path>
+  </g>
+  <text x="224" y="146" font-family="Inter, Arial, sans-serif" font-size="28" fill="#C41E3A" font-weight="700" letter-spacing="4">ADITYAAOP</text>
+  <text x="224" y="214" font-family="Inter, Arial, sans-serif" font-size="58" fill="#111827" font-weight="800">Full Stack Developer &amp; Problem Solver.</text>
+  <text x="224" y="276" font-family="Inter, Arial, sans-serif" font-size="27" fill="#4b5563">Iilm University. CS Student obsessed with Dev.</text>
+  <g transform="translate(224 340)">
+    <rect width="208" height="88" rx="18" fill="#fff8f8" stroke="#edc7c7"/>
+    <text x="26" y="38" font-family="Inter, Arial, sans-serif" font-size="20" fill="#6b7280">core repo</text>
+    <text x="26" y="66" font-family="Inter, Arial, sans-serif" font-size="26" fill="#111827" font-weight="800">Aura-store</text>
+  </g>
+  <g transform="translate(456 340)">
+    <rect width="208" height="88" rx="18" fill="#f8fafc" stroke="#d7dde7"/>
+    <text x="26" y="38" font-family="Inter, Arial, sans-serif" font-size="20" fill="#6b7280">dashboard</text>
+    <text x="26" y="66" font-family="Inter, Arial, sans-serif" font-size="26" fill="#111827" font-weight="800">Log-monitor...</text>
+  </g>
+  <g transform="translate(688 340)">
+    <rect width="208" height="88" rx="18" fill="#f8fafc" stroke="#d7dde7"/>
+    <text x="26" y="38" font-family="Inter, Arial, sans-serif" font-size="20" fill="#6b7280">portfolio</text>
+    <text x="26" y="66" font-family="Inter, Arial, sans-serif" font-size="26" fill="#111827" font-weight="800">Portfolio-2</text>
+  </g>
+  <text x="224" y="492" font-family="Inter, Arial, sans-serif" font-size="24" fill="#6b7280">README and Pages surfaces are maintained as real project entry points.</text>
+</svg>
