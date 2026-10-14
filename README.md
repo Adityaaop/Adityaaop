@@ -32,40 +32,35 @@
 </div>
 
 <details>
-<summary>&nbsp;<b>> with tech stack — mere system par toh chal raha tha 🥲</b>&nbsp;?&nbsp;</summary>
+<summary>&nbsp;<b>> Tech Stack —</b>&nbsp;?&nbsp;</summary>
 <br/>
 
 <p>
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
 <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
 <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
 <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/YAML-CB171E?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
+<img src="https://img.shields.io/badge/WSL-FCC624?style=flat-square&logo=linux&logoColor=black" />
 </p>
 
 <p>
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white" />
 <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+<img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
 </p>
 
 <p>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
-<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
+<img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
 <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
 <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" />
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
-<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
-<img src="https://img.shields.io/badge/WSL-FCC624?style=flat-square&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
 <img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white" />
 </p>
 
@@ -75,14 +70,17 @@
 
 <div align="center">
 
-###  Featured projects
+### Featured projects
 
-| Project | What it does | Stars |
-| --- | --- | --- |
-| [`Log-Monitoring-Dashboard`](https://github.com/Adityaaop/Log-Monitoring-Dashboard) | Real-time log monitoring and analysis dashboard. | ![](https://img.shields.io/github/stars/Adityaaop/Log-Monitoring-Dashboard?style=flat-square&logo=github&label=&color=C41E3A) |
-| [`Aura-store`](https://github.com/Adityaaop/Aura-store) | AURA E-Commerce Platform | ![](https://img.shields.io/github/stars/Adityaaop/Aura-store?style=flat-square&logo=github&label=&color=C41E3A) |
-| [`Portfolio-2`](https://github.com/Adityaaop/Portfolio-2) | Personal portfolio website | ![](https://img.shields.io/github/stars/Adityaaop/Portfolio-2?style=flat-square&logo=github&label=&color=C41E3A) |
-| [`timetable-gen`](https://github.com/Adityaaop/timetable-gen) | Real time TimeTable Generator. | ![](https://img.shields.io/github/stars/Adityaaop/timetable-gen?style=flat-square&logo=github&label=&color=C41E3A) |
+| Project                                                                             | What it does                                                                                                        | Stars                                                                                                                         |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| [`Aura-store`](https://github.com/Adityaaop/Aura-store)                             | Full-stack MERN e-commerce with Cmd+K spotlight search, Redux Toolkit, JWT auth, and PayPal checkout.               | ![](https://img.shields.io/github/stars/Adityaaop/Aura-store?style=flat-square&logo=github&label=&color=C41E3A)               |
+| [`timetable-gen`](https://github.com/Adityaaop/timetable-gen)                       | Constraint-based automated academic timetable generation engine.                                                    | ![](https://img.shields.io/github/stars/Adityaaop/timetable-gen?style=flat-square&logo=github&label=&color=C41E3A)            |
+| [`Log-Monitoring-Dashboard`](https://github.com/Adityaaop/Log-Monitoring-Dashboard) | Splunk SOC dashboard for Linux auth logs with streamstats dynamic spike detection (mean + 2.5σ).                    | ![](https://img.shields.io/github/stars/Adityaaop/Log-Monitoring-Dashboard?style=flat-square&logo=github&label=&color=C41E3A) |
+| [`IIDS`](https://github.com/Adityaaop/IIDS)                                         | Hybrid intrusion detection system combining Random Forest and CNN-LSTM models with Flask forensic logging.          | ![](https://img.shields.io/github/stars/Adityaaop/IIDS?style=flat-square&logo=github&label=&color=C41E3A)                     |
+| [`sttcs`](https://github.com/Adityaaop/sttcs)                                       | AI train traffic control system using Multi-Agent Reinforcement Learning (MARL) for dynamic moving-block signaling. | ![](https://img.shields.io/github/stars/Adityaaop/sttcs?style=flat-square&logo=github&label=&color=C41E3A)                    |
+| [`Portfolio-2`](https://github.com/Adityaaop/Portfolio-2)                           | Personal portfolio website built with modern UI transitions and responsive design.                                  | ![](https://img.shields.io/github/stars/Adityaaop/Portfolio-2?style=flat-square&logo=github&label=&color=C41E3A)              |
+| [`Saathi-Desk`](https://github.com/Adityaaop/Saathi-Desk)                           | Task management workspace built with Node.js, Express, and persistent SQLite storage.                               | ![](https://img.shields.io/github/stars/Adityaaop/Saathi-Desk?style=flat-square&logo=github&label=&color=C41E3A)              |
 
 </div>
 
@@ -132,6 +130,6 @@
 
 <br/><br/>
 
-[![](https://komarev.com/ghpvc/?username=Aditya-Ranjan&color=C41E3A&style=flat-square&label=)](https://github.com/Adityaaop)
+[![Profile Views](https://hits.sh/github.com/Adityaaop.svg?style=flat-square&label=PROFILE+VIEWS&color=c41e3a&labelColor=111827)](https://github.com/Adityaaop)
 
 </div>

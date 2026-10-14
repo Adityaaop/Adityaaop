@@ -1,0 +1,38 @@
+name: Auto-Sort Projects by Stars
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sort-projects:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Sort featured projects by stars
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sort-projects.js
+
+      - name: Commit and push changes if updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md docs/index.html
+          if git diff --staged --quiet; then
+            echo "No changes in star ranking."
+          else
+            git commit -m "chore: auto-sort featured projects by stars [skip ci]"
+            git push
+          fi
