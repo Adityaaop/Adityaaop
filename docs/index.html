@@ -1,384 +1,531 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adityaaop - Public Workbench</title>
-    <meta
-      name="description"
-      content="GitHub profile and public workbench for Adityaaop: local-first AI tooling, browser automation, visual generation, and public repository policy."
-    />
-    <link rel="canonical" href="https://Adityaaop.github.io/Adityaaop/" />
-    <meta property="og:title" content="Adityaaop - Public Workbench" />
-    <meta
-      property="og:description"
-      content="A concise map of Adityaaop's public AI tooling and repository documentation policy."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://Adityaaop.github.io/Adityaaop/" />
-    <meta property="og:image" content="https://Adityaaop.github.io/Adityaaop/assets/social-preview.svg" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Adityaaop - Public Workbench" />
-    <meta
-      name="twitter:description"
-      content="Public AI tooling, browser automation, visual generation, and repository documentation policy."
-    />
-    <meta name="twitter:image" content="https://Adityaaop.github.io/Adityaaop/assets/social-preview.svg" />
-    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
-    <style>
-      :root {
-        color: #111827;
-        background: #f7f2ee;
-        font-family:
-          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        line-height: 1.5;
-      }
 
-      * {
-        box-sizing: border-box;
-      }
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aditya Ranjan - Full Stack Developer & Cybersecurity</title>
+  <meta name="description"
+    content="Public workbench & portfolio for Aditya Ranjan Kumar: Full-stack developer (React, Node, MongoDB) and Cybersecurity undergraduate at IILM University. 3rd Position @ IIT BHU Hackathon." />
+  <link rel="canonical" href="https://Adityaaop.github.io/Adityaaop/" />
+  <meta property="og:title" content="Aditya Ranjan - Full Stack Developer & Cybersecurity" />
+  <meta property="og:description"
+    content="Public workbench & portfolio for Aditya Ranjan Kumar: Full-stack developer (React, Node, MongoDB) and Cybersecurity undergraduate at IILM University." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://Adityaaop.github.io/Adityaaop/" />
+  <meta property="og:image" content="https://Adityaaop.github.io/Adityaaop/assets/social-preview.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Aditya Ranjan - Full Stack Developer & Cybersecurity" />
+  <meta name="twitter:description"
+    content="Public workbench & portfolio for Aditya Ranjan Kumar: Full-stack developer (React, Node, MongoDB) and Cybersecurity undergraduate at IILM University." />
+  <meta name="twitter:image" content="https://Adityaaop.github.io/Adityaaop/assets/social-preview.svg" />
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  <script data-goatcounter="https://adityaaop.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <style>
+    :root {
+      color: #111827;
+      background: #f7f2ee;
+      font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+      line-height: 1.5;
+    }
 
-      body {
-        margin: 0;
-        min-width: 320px;
-      }
+    * {
+      box-sizing: border-box;
+    }
 
-      a {
-        color: inherit;
-      }
+    body {
+      margin: 0;
+      min-width: 320px;
+    }
 
-      .shell {
-        width: min(1120px, calc(100% - 40px));
-        margin: 0 auto;
-      }
+    a {
+      color: inherit;
+    }
 
+    .shell {
+      width: min(1120px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 22px 0;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .mark {
+      display: grid;
+      width: 38px;
+      height: 38px;
+      place-items: center;
+      border-radius: 10px;
+      background: #111827;
+      color: #fff;
+      font-size: 13px;
+      letter-spacing: 0;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 16px;
+      color: #4b5563;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    nav a {
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+
+    nav a:hover {
+      color: #111827;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+      gap: 38px;
+      align-items: center;
+      min-height: calc(100vh - 92px);
+      padding: 38px 0 72px;
+    }
+
+    .eyebrow {
+      color: #c41e3a;
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 14px 0 18px;
+      max-width: 720px;
+      font-size: clamp(38px, 5.5vw, 76px);
+      line-height: 0.98;
+      letter-spacing: -0.02em;
+    }
+
+    .lede {
+      max-width: 660px;
+      color: #4b5563;
+      font-size: clamp(17px, 1.8vw, 21px);
+      line-height: 1.5;
+    }
+
+    .actions,
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 44px;
+      align-items: center;
+      border-radius: 8px;
+      padding: 0 18px;
+      background: #111827;
+      color: #fff;
+      font-weight: 800;
+      text-decoration: none;
+      transition: opacity 0.15s ease;
+    }
+
+    .button:hover {
+      opacity: 0.88;
+    }
+
+    .button.secondary {
+      border: 1px solid #e5ded9;
+      background: #fff;
+      color: #111827;
+    }
+
+    .button.secondary:hover {
+      background: #faf6f3;
+    }
+
+    .stat {
+      min-width: 132px;
+      border: 1px solid #e5ded9;
+      border-radius: 8px;
+      background: #fff;
+      padding: 14px;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 22px;
+      line-height: 1.1;
+    }
+
+    .stat span {
+      color: #6b7280;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .panel {
+      border: 1px solid #e5ded9;
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 24px 70px rgb(17 24 39 / 0.08);
+      overflow: hidden;
+    }
+
+    .panel-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px solid #eee6e2;
+      padding: 16px;
+      color: #6b7280;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .repo-list {
+      display: grid;
+    }
+
+    .repo {
+      display: grid;
+      gap: 4px;
+      padding: 18px;
+      border-bottom: 1px solid #f0e8e4;
+      text-decoration: none;
+      transition: background 0.15s ease;
+    }
+
+    .repo:hover {
+      background: #fdfbf9;
+    }
+
+    .repo:last-child {
+      border-bottom: 0;
+    }
+
+    .repo strong {
+      font-size: 18px;
+      color: #111827;
+    }
+
+    .repo span {
+      color: #4b5563;
+      font-size: 13.5px;
+      line-height: 1.45;
+    }
+
+    section {
+      padding: 70px 0;
+      border-top: 1px solid #e5ded9;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: clamp(28px, 4vw, 48px);
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+    }
+
+    .section-intro {
+      margin: 0 0 32px;
+      max-width: 680px;
+      color: #4b5563;
+      font-size: 17px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      min-width: 0;
+      border: 1px solid #e5ded9;
+      border-radius: 8px;
+      background: #fff;
+      padding: 24px;
+    }
+
+    .card-tag {
+      display: inline-block;
+      margin-bottom: 10px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #c41e3a;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+      line-height: 1.3;
+    }
+
+    .card .subtitle {
+      margin: 0 0 12px;
+      color: #6b7280;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .card p {
+      margin: 0;
+      color: #4b5563;
+      font-size: 14.5px;
+      line-height: 1.5;
+    }
+
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding: 34px 0;
+      color: #6b7280;
+      font-size: 14px;
+      border-top: 1px solid #e5ded9;
+    }
+
+    footer a {
+      color: #111827;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    @media (max-width: 820px) {
       header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 24px;
-        padding: 22px 0;
-      }
-
-      .brand {
-        display: inline-flex;
-        align-items: center;
-        gap: 12px;
-        font-weight: 800;
-      }
-
-      .mark {
-        display: grid;
-        width: 38px;
-        height: 38px;
-        place-items: center;
-        border-radius: 10px;
-        background: #111827;
-        color: #fff;
-        font-size: 13px;
-        letter-spacing: 0;
+        align-items: flex-start;
+        flex-direction: column;
       }
 
       nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        gap: 16px;
-        color: #4b5563;
-        font-size: 14px;
-        font-weight: 700;
+        justify-content: flex-start;
+      }
+
+      .hero,
+      .grid {
+        grid-template-columns: 1fr;
       }
 
       .hero {
-        display: grid;
-        grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
-        gap: 38px;
-        align-items: center;
-        min-height: calc(100vh - 92px);
-        padding: 38px 0 72px;
+        min-height: auto;
+        padding-top: 20px;
       }
+    }
+  </style>
+</head>
 
-      .eyebrow {
-        color: #c41e3a;
-        font-size: 13px;
-        font-weight: 900;
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-      }
+<body>
+  <header class="shell">
+    <a class="brand" href="https://github.com/Adityaaop">
+      <span class="mark">
+        <svg aria-hidden="true" width="24" height="15" viewBox="0 0 48 29">
+          <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"
+            d="M2 29 L14 1 L22 1 L30 19 L30 1 L42 1 C46.5 1 48 4 48 9 C48 13.5 45 16 41 17 L48 29 L41 29 L35.5 17.5 L30 17.5 L30 29 L24 29 L22 23 L11.5 23 L9 29 Z M17 6 L13 18 L20.5 18 Z M30 6 L30 12.5 L39.5 12.5 C41.5 12.5 42.5 11 42.5 9.2 C42.5 7.5 41.5 6 39.5 6 Z">
+          </path>
+        </svg>
+      </span>
+      <span>Aditya Ranjan</span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience & Wins</a>
+      <a href="#skills">Tech & Education</a>
+      <a href="https://www.aditxya.in" target="_blank" rel="noopener">aditxya.in</a>
+      <a href="https://github.com/Adityaaop" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </header>
 
-      h1 {
-        margin: 14px 0 18px;
-        max-width: 720px;
-        font-size: clamp(44px, 8vw, 92px);
-        line-height: 0.93;
-        letter-spacing: 0;
-      }
-
-      .lede {
-        max-width: 660px;
-        color: #4b5563;
-        font-size: clamp(18px, 2vw, 23px);
-      }
-
-      .actions,
-      .stats {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        margin-top: 28px;
-      }
-
-      .button {
-        display: inline-flex;
-        min-height: 44px;
-        align-items: center;
-        border-radius: 8px;
-        padding: 0 16px;
-        background: #111827;
-        color: #fff;
-        font-weight: 800;
-        text-decoration: none;
-      }
-
-      .button.secondary {
-        border: 1px solid #e5ded9;
-        background: #fff;
-        color: #111827;
-      }
-
-      .stat {
-        min-width: 132px;
-        border: 1px solid #e5ded9;
-        border-radius: 8px;
-        background: #fff;
-        padding: 14px;
-      }
-
-      .stat strong {
-        display: block;
-        font-size: 24px;
-      }
-
-      .stat span {
-        color: #6b7280;
-        font-size: 13px;
-        font-weight: 700;
-      }
-
-      .panel {
-        border: 1px solid #e5ded9;
-        border-radius: 8px;
-        background: #fff;
-        box-shadow: 0 24px 70px rgb(17 24 39 / 0.08);
-        overflow: hidden;
-      }
-
-      .panel-head {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 12px;
-        border-bottom: 1px solid #eee6e2;
-        padding: 16px;
-        color: #6b7280;
-        font-size: 12px;
-        font-weight: 900;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-      }
-
-      .repo-list {
-        display: grid;
-      }
-
-      .repo {
-        display: grid;
-        gap: 4px;
-        padding: 18px;
-        border-bottom: 1px solid #f0e8e4;
-        text-decoration: none;
-      }
-
-      .repo:last-child {
-        border-bottom: 0;
-      }
-
-      .repo strong {
-        font-size: 19px;
-      }
-
-      .repo span {
-        color: #4b5563;
-      }
-
-      section {
-        padding: 70px 0;
-        border-top: 1px solid #e5ded9;
-      }
-
-      h2 {
-        margin: 0 0 16px;
-        font-size: clamp(30px, 4vw, 54px);
-        line-height: 1;
-        letter-spacing: 0;
-      }
-
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 16px;
-      }
-
-      .card {
-        min-width: 0;
-        border: 1px solid #e5ded9;
-        border-radius: 8px;
-        background: #fff;
-        padding: 20px;
-      }
-
-      .card h3 {
-        margin: 0 0 10px;
-      }
-
-      .card p {
-        margin: 0;
-        color: #4b5563;
-      }
-
-      footer {
-        padding: 34px 0;
-        color: #6b7280;
-        font-size: 14px;
-      }
-
-      @media (max-width: 820px) {
-        header {
-          align-items: flex-start;
-          flex-direction: column;
-        }
-
-        nav {
-          justify-content: flex-start;
-        }
-
-        .hero,
-        .grid {
-          grid-template-columns: 1fr;
-        }
-
-        .hero {
-          min-height: auto;
-          padding-top: 20px;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <header class="shell">
-      <a class="brand" href="https://github.com/Adityaaop">
-        <span class="mark">
-          <svg aria-hidden="true" width="24" height="15" viewBox="0 0 48 29">
-            <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M2 29 L14 1 L22 1 L30 19 L30 1 L42 1 C46.5 1 48 4 48 9 C48 13.5 45 16 41 17 L48 29 L41 29 L35.5 17.5 L30 17.5 L30 29 L24 29 L22 23 L11.5 23 L9 29 Z M17 6 L13 18 L20.5 18 Z M30 6 L30 12.5 L39.5 12.5 C41.5 12.5 42.5 11 42.5 9.2 C42.5 7.5 41.5 6 39.5 6 Z"></path>
-          </svg>
-        </span>
-        <span>Adityaaop</span>
-      </a>
-      <nav aria-label="Primary">
-        <a href="#projects">Projects</a>
-        <a href="#policy">Policy</a>
-        <a href="https://github.com/Adityaaop/Adityaaop">GitHub</a>
-      </nav>
-    </header>
-
-    <main>
-      <div class="shell hero">
-        <div>
-          <div class="eyebrow">Public workbench</div>
-          <h1>Full Stack Developer & Problem Solver.</h1>
-          <p class="lede">
-            I am a CS student at IILM University obsessed with development. I love building websites and working with React, Node.js, and SQL to solve problems.
-          </p>
-          <div class="actions" aria-label="Primary links">
-            <a class="button" href="https://github.com/Adityaaop">Open GitHub</a>
-            <a class="button secondary" href="https://github.com/Adityaaop/Adityaaop/blob/main/README.md">Read profile</a>
+  <main>
+    <div class="shell hero">
+      <div>
+        <div class="eyebrow">Public workbench &middot; B.Tech CSE (Cybersecurity)</div>
+        <h1>Full Stack Developer & Cybersecurity Undergrad.</h1>
+        <p class="lede">
+          Building responsive web platforms and security telemetry. Specialized in React, Node.js, Express, and MongoDB, with hands-on Splunk SOC log analysis and AI models. 3rd Position at IIT BHU Dark Buster Hackathon.
+        </p>
+        <div class="actions" aria-label="Primary links">
+          <a class="button" href="https://github.com/Adityaaop">Open GitHub</a>
+          <a class="button secondary" href="https://www.aditxya.in" target="_blank" rel="noopener">Portfolio (aditxya.in)</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/aditya-ranjan0578/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <div class="stats" aria-label="Profile signals">
+          <div class="stat">
+            <strong>3rd Place</strong><span>IIT BHU Hackathon</span>
           </div>
-          <div class="stats" aria-label="Profile signals">
-            <div class="stat"><strong>Full Stack</strong><span>developer</span></div>
-            <div class="stat"><strong>Hackathon</strong><span>winner</span></div>
-            <div class="stat"><strong>AWS</strong><span>certified</span></div>
+          <div class="stat">
+            <strong>AWS</strong><span>Cloud Essentials</span>
+          </div>
+          <div class="stat"><strong>Cybersecurity</strong><span>B.Tech '27</span></div>
+          <div class="stat">
+            <strong id="visitor-count">—</strong><span>site visits</span>
           </div>
         </div>
+      </div>
 
-        <aside class="panel" aria-label="Featured repositories">
-          <div class="panel-head">
-            <span>Featured</span>
-            <span>active</span>
-          </div>
-          <div class="repo-list">
-            <a class="repo" href="https://github.com/Adityaaop/Log-monitoring-Dashboard">
-              <strong>Log-monitoring-Dashboard</strong>
-              <span>Real-time log monitoring and analysis dashboard.</span>
-            </a>
+      <aside class="panel" id="projects" aria-label="Featured repositories">
+        <div class="panel-head">
+          <span>Featured Repositories</span>
+          <span>active</span>
+        </div>
+        <div class="repo-list">
             <a class="repo" href="https://github.com/Adityaaop/Aura-store">
               <strong>Aura-store</strong>
-              <span>AURA E-Commerce Platform.</span>
-            </a>
-            <a class="repo" href="https://github.com/Adityaaop/Portfolio-2">
-              <strong>Portfolio-2</strong>
-              <span>Personal portfolio website.</span>
+              <span>Full-stack MERN e-commerce with Cmd+K spotlight search, Redux Toolkit, JWT auth, and PayPal checkout.</span>
             </a>
             <a class="repo" href="https://github.com/Adityaaop/timetable-gen">
               <strong>timetable-gen</strong>
-              <span>Real-time TimeTable Generator.</span>
+              <span>Constraint-based automated academic timetable generation engine.</span>
+            </a>
+            <a class="repo" href="https://github.com/Adityaaop/Log-Monitoring-Dashboard">
+              <strong>Log-Monitoring-Dashboard</strong>
+              <span>Splunk SOC dashboard for Linux auth logs with streamstats dynamic spike detection (mean + 2.5σ).</span>
+            </a>
+            <a class="repo" href="https://github.com/Adityaaop/IIDS">
+              <strong>IIDS</strong>
+              <span>Hybrid intrusion detection system combining Random Forest and CNN-LSTM models with Flask forensic logging.</span>
+            </a>
+            <a class="repo" href="https://github.com/Adityaaop/sttcs">
+              <strong>sttcs</strong>
+              <span>AI train traffic control system using Multi-Agent Reinforcement Learning (MARL) for dynamic moving-block signaling.</span>
+            </a>
+            <a class="repo" href="https://github.com/Adityaaop/Portfolio-2">
+              <strong>Portfolio-2</strong>
+              <span>Personal portfolio website built with modern UI transitions and responsive design.</span>
+            </a>
+            <a class="repo" href="https://github.com/Adityaaop/Saathi-Desk">
+              <strong>Saathi-Desk</strong>
+              <span>Task management workspace built with Node.js, Express, and persistent SQLite storage.</span>
             </a>
           </div>
-        </aside>
+      </aside>
+    </div>
+
+    <section id="experience">
+      <div class="shell">
+        <h2>Experience & Achievements.</h2>
+        <p class="section-intro">Practical engineering from hackathon wins, internship delivery, and cloud fundamentals.</p>
+        <div class="grid">
+          <article class="card">
+            <span class="card-tag">Hackathon Win</span>
+            <h3>3rd Place — Dark Buster Hackathon</h3>
+            <div class="subtitle">IIT BHU &middot; National Level</div>
+            <p>
+              Secured 3rd Position at the Dark Buster Hackathon organized by IIT BHU, engineering and presenting rapid software solutions under competitive deadlines.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-tag">Work Experience</span>
+            <h3>Web Dev Intern — YBI Foundation</h3>
+            <div class="subtitle">Remote &middot; June 2025 – July 2025</div>
+            <p>
+              Developed responsive web interfaces with HTML, CSS, and JavaScript. Built backend services with Node.js and Express, connecting dynamic front-end views to MySQL databases.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-tag">Certification</span>
+            <h3>AWS Cloud Practitioner Essentials</h3>
+            <div class="subtitle">Amazon AWS Training &middot; May 2025</div>
+            <p>
+              Certified fundamentals in AWS cloud infrastructure: EC2 compute, S3 storage, RDS relational data, IAM security guardrails, and VPC networking.
+            </p>
+          </article>
+        </div>
       </div>
+    </section>
 
-      <section id="projects">
-        <div class="shell">
-          <h2>What belongs on each public surface.</h2>
-          <div class="grid">
-            <article class="card">
-              <h3>README</h3>
-              <p>Purpose, install, quickstart, screenshots or examples, verification commands, CI status, and license facts.</p>
-            </article>
-            <article class="card">
-              <h3>GitHub Pages</h3>
-              <p>Product-grade landing page with real workflow context, project metrics, privacy notes, and repository links.</p>
-            </article>
-            <article class="card">
-              <h3>CI</h3>
-              <p>Focused checks that match the project: tests, typecheck/build, link validation, and Pages deploy gates.</p>
-            </article>
-          </div>
+    <section id="skills">
+      <div class="shell">
+        <h2>Core Domains & Background.</h2>
+        <p class="section-intro">Full-stack web engineering, cybersecurity threat detection, and formal academic foundation.</p>
+        <div class="grid">
+          <article class="card">
+            <span class="card-tag">Frontend & Backend</span>
+            <h3>Full-Stack MERN Architecture</h3>
+            <div class="subtitle">React 18 &middot; Node.js &middot; Express &middot; MongoDB</div>
+            <p>
+              Building responsive SPAs with Redux Toolkit, Tailwind CSS, and RESTful APIs. Implementing secure JWT authentication with http-only cookies, bcrypt hashing, and role-based access.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-tag">Security & Telemetry</span>
+            <h3>SOC & Intrusion Detection</h3>
+            <div class="subtitle">Splunk &middot; Linux Auth &middot; ML Models</div>
+            <p>
+              Hands-on Splunk SPL log ingestion, regex field extractions (CIM-normalized) for Linux auth logs, rolling-window spike detection, and AI intrusion detection models (Random Forest + CNN-LSTM).
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-tag">Academics</span>
+            <h3>B.Tech CSE (Cybersecurity)</h3>
+            <div class="subtitle">IILM University, Greater Noida &middot; 2023–2027</div>
+            <p>
+              Coursework in Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks, Information Security, Network Security, and Software Engineering.
+            </p>
+          </article>
         </div>
-      </section>
+      </div>
+    </section>
+  </main>
 
-      <section id="policy">
-        <div class="shell">
-          <h2>Repository policy.</h2>
-          <div class="grid">
-            <article class="card">
-              <h3>Evidence-backed claims</h3>
-              <p>Version, install, test, license, and deployment statements must match repository files or GitHub state.</p>
-            </article>
-            <article class="card">
-              <h3>Local-first privacy</h3>
-              <p>Docs should clearly name which data stays local and which generated exports may reveal private usage.</p>
-            </article>
-            <article class="card">
-              <h3>No placeholder polish</h3>
-              <p>Pages should use real screenshots, real outputs, or generated project-specific assets, not generic filler.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-    </main>
+  <footer class="shell">
+    <div>
+      <strong>Aditya Ranjan Kumar</strong> &middot; <a href="https://www.aditxya.in" target="_blank" rel="noopener">www.aditxya.in</a> &middot; <a href="mailto:adityamishra0578@gmail.com">adityamishra0578@gmail.com</a> &middot; <a href="https://www.linkedin.com/in/aditya-ranjan0578/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <a href="https://github.com/Adityaaop" title="Profile views">
+      <img
+        src="https://hits.sh/github.com/Adityaaop.svg?style=flat-square&label=%20&color=c41e3a"
+        alt="Profile views" />
+    </a>
+  </footer>
 
-    <footer class="shell">
-      GitHub profile repository for Adityaaop. Pages deployment is prepared from /docs after an authorized push.
-    </footer>
-  </body>
+  <script>
+    (function () {
+      const el = document.getElementById("visitor-count");
+      if (!el) return;
+      fetch("https://counterapi.com/api/adityaaop/view/profile")
+        .then((res) => res.json())
+        .then((data) => {
+          if (data && (data.value || data.formatted)) {
+            el.textContent = data.formatted || data.value;
+          }
+        })
+        .catch(() => {
+          el.textContent = "1+";
+        });
+    })();
+  </script>
+</body>
+
 </html>

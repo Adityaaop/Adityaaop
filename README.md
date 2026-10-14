@@ -130,6 +130,6 @@
 
 <br/><br/>
 
-[![Profile Views](https://hits.sh/github.com/Adityaaop.svg?style=flat-square&label=PROFILE+VIEWS&color=c41e3a&labelColor=111827)](https://github.com/Adityaaop)
+[![](https://hits.sh/github.com/Adityaaop.svg?style=flat-square&label=%20&color=c41e3a)](https://github.com/Adityaaop)
 
 </div>
